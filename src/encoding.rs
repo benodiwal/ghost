@@ -32,9 +32,8 @@ mod tests {
 
     #[test]
     fn test_decode_with_noise() {
-        // Even with small noise, decoding should work
-        let noisy_zero = Torus::new(0.05); // Close to 0
-        let noisy_one = Torus::new(0.23); // Close to 0.25
+        let noisy_zero = Torus::new(0.05);
+        let noisy_one = Torus::new(0.23);
 
         assert_eq!(decode_bit(&noisy_zero), false);
         assert_eq!(decode_bit(&noisy_one), true);
