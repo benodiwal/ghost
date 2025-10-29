@@ -4,7 +4,7 @@ description = "TFHE (Torus Fully Homomorphic Encryption) implementation for comp
 version = "0.1.0"
 edition = "2024"
 license = "MIT"
-readme = "README"
+readme = "README.md"
 authors = ["Sachin Beniwal <sachinbeniwal0101@gmail.com>"]
 
 [dependencies]
