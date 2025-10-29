@@ -1,7 +1,10 @@
 [package]
 name = "ghost-tfhe"
+description = "TFHE (Torus Fully Homomorphic Encryption) implementation for computing on encrypted data"
 version = "0.1.0"
 edition = "2024"
+license = "MIT"
+readme = "README"
 authors = ["Sachin Beniwal <sachinbeniwal0101@gmail.com>"]
 
 [dependencies]
