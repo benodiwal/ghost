@@ -1,5 +1,5 @@
 [package]
-name = "ghost"
+name = "ghost-tfhe"
 version = "0.1.0"
 edition = "2024"
 authors = ["Sachin Beniwal <sachinbeniwal0101@gmail.com>"]

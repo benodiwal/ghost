@@ -1,7 +1,7 @@
-use ghost::lwe::{LweParams, LweSecretKey, LweCiphertext};
-use ghost::tlwe::{TlweParams, TlweSecretKey, TlweSample};
-use ghost::torus::Torus;
-use ghost::tfhe::{TfheParams, TfheSecretKey, TfheEncoder};
+use ghost_tfhe::lwe::{LweParams, LweSecretKey, LweCiphertext};
+use ghost_tfhe::tlwe::{TlweParams, TlweSecretKey, TlweSample};
+use ghost_tfhe::torus::Torus;
+use ghost_tfhe::tfhe::{TfheParams, TfheSecretKey, TfheEncoder};
 
 fn main() {
     println!("=== Basic TFHE Implementation Demo ===\n");

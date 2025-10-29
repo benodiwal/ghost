@@ -1,4 +1,4 @@
-# Ghost
+# Ghost-TFHE
 
 A pure Rust implementation of TFHE (Torus Fully Homomorphic Encryption) for secure computation on encrypted data.
 
@@ -16,13 +16,13 @@ Add to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-ghost = "0.1.0"
+ghost-tfhe = "0.1.0"
 ```
 
 ### Basic Example
 
 ```rust
-use ghost::tfhe::{TfheParams, TfheSecretKey, TfheEncoder};
+use ghost_tfhe::tfhe::{TfheParams, TfheSecretKey, TfheEncoder};
 
 fn main() {
     // Generate parameters and keys
