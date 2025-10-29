@@ -1,5 +1,6 @@
 # Ghost-TFHE
 
+(NOTE: This is not production ready yet)
 A pure Rust implementation of TFHE (Torus Fully Homomorphic Encryption) for secure computation on encrypted data.
 
 ## Features
